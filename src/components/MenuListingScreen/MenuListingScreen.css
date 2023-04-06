@@ -1,0 +1,32 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .menu-item-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-item-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .menu-item-price {
+    font-size: 1rem;
+  }
+  

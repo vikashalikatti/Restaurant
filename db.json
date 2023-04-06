@@ -1,0 +1,79 @@
+{
+    "restaurants": [
+      {
+        "name": "Restaurant 1",
+        "id": 101,
+        "location": "Location 1",
+        "city": "City 1"
+      },
+      {
+        "name": "Restaurant 2",
+        "id": 102,
+        "location": "Location 2",
+        "city": "City 2"
+      }
+    ],
+    "menus": [
+      {
+        "id": 101,
+        "cuisine": "Indian",
+        "menu": [
+          {
+            "id": 1,
+            "itemName": "Veg Curry",
+            "itemPrice": 150,
+            "type": "veg"
+          },
+          {
+            "id": 2,
+            "itemName": "Non-Veg Curry",
+            "itemPrice": 200,
+            "type": "nonveg"
+          },
+          {
+            "id": 3,
+            "itemName": "Veg Biryani",
+            "itemPrice": 180,
+            "type": "veg"
+          },
+          {
+            "id": 4,
+            "itemName": "Non-Veg Biryani",
+            "itemPrice": 250,
+            "type": "nonveg"
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "cuisine": "Italian",
+        "menu": [
+          {
+            "id": 5,
+            "itemName": "Veg Pizza",
+            "itemPrice": 300,
+            "type": "veg"
+          },
+          {
+            "id": 6,
+            "itemName": "Non-Veg Pizza",
+            "itemPrice": 350,
+            "type": "nonveg"
+          },
+          {
+            "id": 7,
+            "itemName": "Veg Pasta",
+            "itemPrice": 250,
+            "type": "veg"
+          },
+          {
+            "id": 8,
+            "itemName": "Non-Veg Pasta",
+            "itemPrice": 300,
+            "type": "nonveg"
+          }
+        ]
+      }
+    ]
+  }
+  
