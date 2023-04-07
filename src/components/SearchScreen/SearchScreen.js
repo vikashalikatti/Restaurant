@@ -1,10 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './SearchScreen.css';
 
-function SearchScreen() {
+function SearchScreen({ handleCartVisible }) {
   const [search, setSearch] = useState('');
   const navigate = useNavigate();
+
+  useEffect(() => {
+    handleCartVisible(false);
+    return () => handleCartVisible(true);
+  }, [handleCartVisible]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
